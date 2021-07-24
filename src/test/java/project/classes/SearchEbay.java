@@ -23,7 +23,7 @@ public class SearchEbay extends PageObject {
     }
 
     public void searchItem(String item){
-        if (item.equals("")) {
+        if (!item.equals("")) {
             click(search_box);
             type(item, search_box);
             click(search_button);

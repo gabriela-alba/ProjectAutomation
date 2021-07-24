@@ -15,6 +15,8 @@ public class TestEbay {
     private WebDriver driver;
     private SearchEbay page;
 
+    private final By item_price = By.xpath("//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/div[2]/div[1]/span");
+
     private static final Logger logger = LogManager.getLogger(TestEbay.class);
 
     @BeforeTest
@@ -31,11 +33,10 @@ public class TestEbay {
     public void SearchItemTest(){
         page.searchItem("Guitarra Eléctrica");
 
-        final By item_price = By.xpath("//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/div[2]/div[1]/span");
         Assert.assertTrue(driver.findElement(item_price).isDisplayed(), "Failed item price");
         String actualResult = driver.findElement(item_price).getText();
 
-        logger.info("Item price: " + actualResult);
+        logger.info("Item price: " + actualResult + "\n");
     }
 
     @AfterTest

@@ -1,0 +1,46 @@
+2021-07-24 16:10:19 INFO  (TestEbay.java:25) - Test is starting...
+
+2021-07-24 16:10:21 ERROR (SearchEbay.java:38) - Failed searching null item
+2021-07-24 16:10:21 INFO  (TestEbay.java:43) - Closing the driver.
+2021-07-24 16:10:22 INFO  (TestEbay.java:46) - Test is ending.
+2021-07-24 16:11:23 INFO  (TestEbay.java:25) - Test is starting...
+
+2021-07-24 16:11:26 ERROR (SearchEbay.java:38) - Failed searching null item
+2021-07-24 16:11:26 INFO  (TestEbay.java:43) - Closing the driver.
+2021-07-24 16:11:27 INFO  (TestEbay.java:46) - Test is ending.
+2021-07-24 16:13:52 INFO  (TestEbay.java:27) - Test is starting...
+
+2021-07-24 16:13:54 ERROR (SearchEbay.java:38) - Failed searching null item
+2021-07-24 16:13:54 INFO  (TestEbay.java:44) - Closing the driver.
+2021-07-24 16:13:55 INFO  (TestEbay.java:47) - Test is ending.
+2021-07-24 16:15:10 INFO  (TestEbay.java:27) - Test is starting...
+
+2021-07-24 16:15:17 INFO  (SearchEbay.java:33) - Successful search
+2021-07-24 16:15:17 INFO  (TestEbay.java:39) - Item price: USD290.00
+2021-07-24 16:15:17 INFO  (TestEbay.java:44) - Closing the driver.
+2021-07-24 16:15:17 INFO  (TestEbay.java:47) - Test is ending.
+2021-07-24 16:16:41 INFO  (TestEbay.java:27) - Test is starting...
+
+2021-07-24 16:16:45 INFO  (SearchEbay.java:33) - Successful search
+2021-07-24 16:16:46 INFO  (TestEbay.java:39) - Item price: 
+USD290.00
+2021-07-24 16:16:46 INFO  (TestEbay.java:44) - Closing the driver.
+2021-07-24 16:16:46 INFO  (TestEbay.java:47) - Test is ending.
+2021-07-24 16:17:22 INFO  (TestEbay.java:27) - Test is starting...
+
+2021-07-24 16:17:28 INFO  (SearchEbay.java:33) - Successful search
+2021-07-24 16:17:28 INFO  (TestEbay.java:39) - Item price: USD290.00
+2021-07-24 16:17:28 INFO  (TestEbay.java:44) - Closing the driver.
+2021-07-24 16:17:28 INFO  (TestEbay.java:47) - Test is ending.
+2021-07-24 16:18:16 INFO  (TestGmail.java:32) - Test is starting...
+
+2021-07-24 16:18:16 INFO  (TestGmail.java:33) - Navigate to https://www.gmail.com/ - Driver version: 92.0.4515.107 
+
+2021-07-24 16:18:20 INFO  (LoginGmail.java:38) - Logged with this credentials: 
+2021-07-24 16:18:20 INFO  (LoginGmail.java:39) - Email: test.emailok01@gmail.com
+2021-07-24 16:18:20 INFO  (LoginGmail.java:40) - Password: testEmail98765
+
+2021-07-24 16:18:26 INFO  (TestGmail.java:51) - PASSED: Login to gmail 
+
+2021-07-24 16:18:26 INFO  (TestGmail.java:58) - Closing the driver.
+2021-07-24 16:18:27 INFO  (TestGmail.java:61) - Test is ending.

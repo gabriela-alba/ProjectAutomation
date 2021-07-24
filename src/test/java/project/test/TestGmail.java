@@ -20,6 +20,8 @@ public class TestGmail {
     private WebDriver driver;
     private LoginGmail browser;
 
+    private final By profile_icon = By.xpath("//*[@id=\"gb\"]/div[2]/div[3]/div[1]/div[2]/div/a");
+
     private static final Logger logger = LogManager.getLogger(TestGmail.class);
 
     @BeforeTest
@@ -37,7 +39,7 @@ public class TestGmail {
     @Test(testName = "Login Gmail")
     public void loginTest(){
         browser.login("test.emailok01@gmail.com", "testEmail98765"); //For negative tests modify the email or password
-        final By profile_icon = By.xpath("//*[@id=\"gb\"]/div[2]/div[3]/div[1]/div[2]/div/a");
+
         try{
             WebDriverWait wait = new WebDriverWait(browser.getDriver(), 5);
             wait.until(ExpectedConditions.visibilityOfElementLocated(profile_icon));
@@ -46,7 +48,7 @@ public class TestGmail {
         }finally {
             boolean isProfileIcon = driver.findElement(profile_icon).isDisplayed();
             Assert.assertTrue(isProfileIcon);
-            logger.info("PASSED: Login to gmail");
+            logger.info("PASSED: Login to gmail \n");
         }
 
     }
@@ -55,7 +57,7 @@ public class TestGmail {
     public void tearDown(){
         logger.info("Closing the driver.");
 
-        //driver.quit();
+        driver.quit();
         logger.info("Test is ending.");
     }
 }
