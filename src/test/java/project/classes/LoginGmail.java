@@ -41,6 +41,8 @@ public class LoginGmail extends PageObject {
 
         } else {
             logger.info("Logged with invalid credentials: ");
+            logger.info("Email: {}", email);
+            logger.info("Password: {}\n", password);
             logger.error("Enter an email or password");
         }
     }

@@ -44,3 +44,47 @@ USD290.00
 
 2021-07-24 16:18:26 INFO  (TestGmail.java:58) - Closing the driver.
 2021-07-24 16:18:27 INFO  (TestGmail.java:61) - Test is ending.
+2021-07-24 16:36:08 INFO  (TestGmail.java:32) - Test is starting...
+
+2021-07-24 16:36:08 INFO  (TestGmail.java:33) - Navigate to https://www.gmail.com/ - Driver version: 92.0.4515.107 
+
+2021-07-24 16:36:11 INFO  (LoginGmail.java:43) - Logged with invalid credentials: 
+2021-07-24 16:36:11 ERROR (LoginGmail.java:44) - Enter an email or password
+2021-07-24 16:36:16 ERROR (TestGmail.java:47) - Failed to logging
+2021-07-24 16:36:17 INFO  (TestGmail.java:58) - Closing the driver.
+2021-07-24 16:36:18 INFO  (TestGmail.java:61) - Test is ending.
+2021-07-24 16:38:55 INFO  (TestGmail.java:32) - Test is starting...
+
+2021-07-24 16:38:55 INFO  (TestGmail.java:33) - Navigate to https://www.gmail.com/ - Driver version: 92.0.4515.107 
+
+2021-07-24 16:39:00 INFO  (LoginGmail.java:38) - Logged with this credentials: 
+2021-07-24 16:39:00 INFO  (LoginGmail.java:39) - Email: test.emailok01@gmail.com
+2021-07-24 16:39:00 INFO  (LoginGmail.java:40) - Password: testEmail
+
+2021-07-24 16:39:06 ERROR (TestGmail.java:47) - Failed to logging
+2021-07-24 16:39:06 INFO  (TestGmail.java:58) - Closing the driver.
+2021-07-24 16:39:07 INFO  (TestGmail.java:61) - Test is ending.
+2021-07-24 16:40:30 INFO  (TestGmail.java:32) - Test is starting...
+
+2021-07-24 16:40:30 INFO  (TestGmail.java:33) - Navigate to https://www.gmail.com/ - Driver version: 92.0.4515.107 
+
+2021-07-24 16:40:33 INFO  (LoginGmail.java:43) - Logged with invalid credentials: 
+2021-07-24 16:40:33 INFO  (LoginGmail.java:44) - Email: test.emailok01@gmail.com
+2021-07-24 16:40:33 INFO  (LoginGmail.java:45) - Password: 
+
+2021-07-24 16:40:33 ERROR (LoginGmail.java:46) - Enter an email or password
+2021-07-24 16:40:38 ERROR (TestGmail.java:47) - Failed to logging
+2021-07-24 16:40:38 INFO  (TestGmail.java:58) - Closing the driver.
+2021-07-24 16:40:40 INFO  (TestGmail.java:61) - Test is ending.
+2021-07-24 16:41:49 INFO  (TestEbay.java:27) - Test is starting...
+
+2021-07-24 16:41:55 INFO  (SearchEbay.java:33) - Successful search
+2021-07-24 16:41:55 INFO  (TestEbay.java:39) - Item price: USD290.00
+
+2021-07-24 16:41:55 INFO  (TestEbay.java:44) - Closing the driver.
+2021-07-24 16:41:56 INFO  (TestEbay.java:47) - Test is ending.
+2021-07-24 16:42:20 INFO  (TestEbay.java:27) - Test is starting...
+
+2021-07-24 16:42:24 ERROR (SearchEbay.java:38) - Failed searching null item
+2021-07-24 16:42:24 INFO  (TestEbay.java:44) - Closing the driver.
+2021-07-24 16:42:24 INFO  (TestEbay.java:47) - Test is ending.
