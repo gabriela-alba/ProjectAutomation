@@ -12,10 +12,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class SearchEbay extends PageObject {
     WebDriverWait wait;
 
-    private By search_box = By.id("gh-ac");
-    private By search_button = By.id("gh-btn");
-    private By item_search = By.xpath("//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[1]/div/a/div/img");
-    private By item_price = By.xpath("//*[@id=\"srp-river-results\"]");
+    private final By search_box = By.id("gh-ac");
+    private final By search_button = By.id("gh-btn");
+    private final By item_search = By.xpath("//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[1]/div/a/div/img");
 
     private static final Logger logger = LogManager.getLogger(SearchEbay.class);
 
@@ -24,7 +23,7 @@ public class SearchEbay extends PageObject {
     }
 
     public void searchItem(String item){
-        if (item != "") {
+        if (item.equals("")) {
             click(search_box);
             type(item, search_box);
             click(search_button);

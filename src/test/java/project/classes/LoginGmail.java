@@ -11,10 +11,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class LoginGmail extends PageObject {
     WebDriverWait wait;
 
-    private By email_box = By.id("identifierId");
-    private By next_button = By.xpath("//*[@id=\"identifierNext\"]");
-    private By pass_box = By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input");
-    private By submit_button = By.xpath("//*[@id=\"passwordNext\"]");
+    private final By email_box = By.id("identifierId");
+    private final By next_button = By.xpath("//*[@id=\"identifierNext\"]");
+    private final By pass_box = By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input");
+    final By submit_button = By.xpath("//*[@id=\"passwordNext\"]");
 
     private static final Logger logger = LogManager.getLogger(LoginGmail.class);
 
@@ -24,7 +24,7 @@ public class LoginGmail extends PageObject {
 
     public void login(String email, String password){
 
-        if (email != "" && password != ""){
+        if (!email.equals("") && !password.equals("")){
             type(email, email_box);
             click(next_button);
 
