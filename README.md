@@ -22,6 +22,7 @@ _These instructions will allow you to get a copy of the project running on your 
 - Chrome browser version 92.0.4515.107
 - Firefox browser version 89.0.2
 - IE browser version 11
+- npm install for dependencies
 
 ## Built with  🛠️
 
